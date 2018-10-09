@@ -12,7 +12,7 @@ else
   end 
 end
 
-my_each(array) do |i|
+my_each(words) do |i|
    i 
 end
 
