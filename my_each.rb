@@ -1,4 +1,4 @@
-def my_each(words)
+def my_each(array)
   if block_given?
   i=0 
   
@@ -12,7 +12,8 @@ else
   end 
 end
 
-my_each(words) do |i|
+my_each(array) do |i|
    i 
 end
 
+my_each(words)
