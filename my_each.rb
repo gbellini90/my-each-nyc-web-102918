@@ -12,8 +12,5 @@ def my_each(array)
   end 
 end
 
-my_each(collection) do |i|
-   i 
-end
 
 
